@@ -100,3 +100,7 @@ INSTALL(TARGETS snappy snappy_static
         RUNTIME DESTINATION bin 
         LIBRARY DESTINATION lib 
         ARCHIVE DESTINATION lib)
+
+################# package #######################
+
+include(${PROJECT_SOURCE_DIR}/cmake/package.cmake)
